@@ -1,0 +1,6 @@
+help            : Shows a description of the different available commands
+exit            : Exits the market calculator
+print           : Prints each game item in local storage with its values
+add             : Adds a game item
+edit [itemName] : Edits the item with the given "itemName"
+print tree [itemName] : Prints a hiearchy of items leading to the "itemName" with market values
