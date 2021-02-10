@@ -128,5 +128,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-## Project specific things
-gameItems.json
+## Project specific settings
+
+*.opml
