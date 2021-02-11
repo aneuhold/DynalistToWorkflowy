@@ -35,8 +35,8 @@ def processDateMatch(matchObj):
 
 
 def buildWorkflowyDateString(year, month, day, hour, minute, dateString):
-  returnStr = '<time startYear=";' + str(year) + '" '
-  returnStr += 'startMonth=";' + str(month) + '" '
+  returnStr = '<time startYear="' + str(year) + '" '
+  returnStr += 'startMonth="' + str(month) + '" '
   returnStr += 'startDay="' + str(day) + '"'
 
   # 24 based hour
