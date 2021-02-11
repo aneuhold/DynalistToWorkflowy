@@ -1,6 +1,5 @@
 from src.printFunctions import *
 import xml.etree.ElementTree as ET
-from os import path
 import re
 from src.dateConversion import convertDates
 from src.linkConversion import convertLinks
@@ -20,4 +19,4 @@ for outline in root.iter('outline'):
   if 'complete' in outline.attrib:
     outline.attrib['_complete'] = outline.attrib['complete']
 
-tree.write('outpute-text.opml')
+tree.write('output-text.opml')
