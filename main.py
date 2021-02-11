@@ -1,6 +1,4 @@
-from src.printFunctions import *
 import xml.etree.ElementTree as ET
-import re
 from src.dateConversion import convertDates
 from src.linkConversion import convertLinks
 
